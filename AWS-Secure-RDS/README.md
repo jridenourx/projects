@@ -8,6 +8,8 @@ This project demonstrates a "Security-by-Design" approach to cloud infrastructur
 * **Granular Access Control:** Implements **IAM roles and Security Groups** using the Principle of Least Privilege.
 * **Modular Code:** Resources are built using reusable Terraform modules for scalability and consistency.
 * **Environment:** Developed using **WSL 2 (Ubuntu)** and **VS Code**.
+* **Data Protection:** Enforces AES-256 Storage Encryption via custom AWS KMS Keys with automated rotation enabled. 
+
 
 ## Key AWS Services
 * **VPC** (Subnets, Route Tables, NAT Gateways)
